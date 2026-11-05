@@ -1,68 +1,91 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
 
     <title>Financial Genome Project</title>
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=Rajdhani:wght@400;500;600;700&display=swap"
+          rel="stylesheet">
 
-    <!-- Main stylesheet -->
-    <link rel="stylesheet" href="style.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="/style.css?v=2">
+
 </head>
 
 <body>
 
-    <main class="container">
+<main class="container">
 
-        <!-- HEADER -->
-        <header class="site-header">
+    <!-- =====================================
+         HEADER
+         ===================================== -->
 
-            <div class="brand">
-                <div>
-                    <div class="brand-name">
-                        FINANCIAL GENOME PROJECT
-                    </div>
+    <header class="site-header">
 
-                    <div class="brand-subtitle">
-                        EXPLORING THE ECONOMIC DNA OF SHREVEPORT-BOSSIER CITY THROUGH DATA, TRENDS, AND ANALYSIS. 
-                    </div>
-                </div>
+        <div class="brand">
+
+            <div class="brand-name">
+                FINANCIAL GENOME PROJECT
             </div>
 
-            <div class="system-status">
-                <span class="status-dot"></span>
-                SYSTEMS ONLINE
+            <div class="brand-subtitle">
+                EXPLORING THE ECONOMIC DNA OF
+                SHREVEPORT-BOSSIER CITY THROUGH
+                DATA, TRENDS, AND ANALYSIS.
             </div>
 
-        </header>
+        </div>
 
-        <!-- HERO SECTION -->
-        <section class="hero">
+        <div class="system-status">
+            <span class="status-dot"></span>
+            SYSTEMS ONLINE
+        </div>
 
-            <div class="hero-content">
-                <h1>Shreveport–Bossier City</h1>
+    </header>
 
-                <div class="hero-description">
-                    Economic Intelligence Dashboard
-                </div>
+
+    <!-- =====================================
+         HERO SECTION
+         ===================================== -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <h1>Shreveport–Bossier City</h1>
+
+            <div class="hero-description">
+                Economic Intelligence Dashboard
             </div>
 
-        </section>
+        </div>
 
-        <section class="chart-section">
-            <iframe
-                src="charts/unemployment.html"
-                title="Shreveport-Bossier unemployment"
-                class="economic-chart"
-                loading="lazy">
-            </iframe>
-</section>
+    </section>
 
-    </main>
+
+    <!-- =====================================
+         UNEMPLOYMENT CHART
+         ===================================== -->
+
+    <section class="chart-section">
+
+        <iframe
+            id="unemployment-chart"
+            src="/charts/unemployment.html?v=2"
+            title="Shreveport-Bossier Unemployment"
+            scrolling="no">
+        </iframe>
+
+    </section>
+
+
+</main>
 
 </body>
 </html>
